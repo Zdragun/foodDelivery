@@ -1,0 +1,129 @@
+footer {
+    background-color: var(--color-darkgray);
+    color: var(--color-semilightgray);
+    padding: 15px;
+
+}
+
+footer .main-container {
+    padding: 40px 92px;
+}
+
+/* footer .cont-logo
+{
+    border-bottom:2px solid var(--color-semilightgray);
+} */
+
+footer .cont-logo {
+    width: 296px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .cont-logo .stroke {
+    width: 100%;
+    border-top: 1px solid var(--color-semilightgray);
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+footer .cont-logo .banner-cont {
+
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    flex-direction: row;
+}
+
+
+
+footer .cont-logo .banner-cont img {
+    margin-right: 5px;
+
+}
+
+
+
+.info-cont {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-bottom: 92px;
+}
+
+.info-cont .privacy-text {
+    display: flex;
+    margin-left: 148px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex: 1;
+
+
+}
+
+.info-cont .privacy-text h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--weight-600);
+    line-height: 32px;
+    color: #FFF;
+    padding-bottom:14px;
+}
+
+.info-cont .privacy-text li,select {
+    font-size: 16px;
+    font-family:Martel Sans;
+    font-style: normal;
+    font-weight: var(--weight-700);
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: var(--color-semilightgray);
+}
+
+
+.info-cont .privacy-text .contact-us li
+{
+    font-weight: var(--weight-300);
+}
+
+.info-cont .privacy-text select
+{
+    background-color: transparent;
+    border: none;
+}
+
+.media-cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.media-cont .icon-cont
+{
+  
+    display: flex;
+
+    
+}
+
+.media-cont .icon-cont img
+{
+    padding-right: 24px;
+    cursor: pointer;
+}
+
+.media-cont .terms-cond
+{
+    display: flex;
+  
+    justify-content: flex-end;
+    flex:1;
+}
+
+.media-cont .terms-cond p:not(:last-child)
+{
+    padding-right: 60px;
+}

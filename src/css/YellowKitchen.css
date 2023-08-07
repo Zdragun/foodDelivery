@@ -1,0 +1,30 @@
+.yellow-cont {
+    margin: 72px  92px;
+}
+
+.yellow-cont .yellow-header p {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: var(--weight-300);
+    line-height: 64px;
+    color: #313030;
+    letter-spacing: 2.88px;
+}
+
+.yellow-cont .yellow-header span
+{
+    color: var(--color-gray);
+}
+
+.dishes-cont
+{
+    display: flex;
+    align-items: center;
+   flex-wrap: nowrap;
+}
+
+.dishes-cont img
+{
+    margin-right: 15px;
+    width: 100%;
+}

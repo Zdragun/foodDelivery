@@ -1,0 +1,12 @@
+
+  .image-container {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin: 72px 69px 72px 91px;
+    width: calc(100% - 144px); 
+  }
+  
+  .map-image {
+    width: 100%;
+    height: auto;
+  }

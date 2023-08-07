@@ -1,0 +1,122 @@
+.section-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 92px;
+    margin-left: 92px;
+
+
+}
+
+
+.section-slider .title-rest {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: var(--weight-300);
+    line-height: 64px;
+    letter-spacing: 2.88px;
+    flex: 1;
+}
+
+.section-slider .show-all-btn {
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: var(--color-lightgray);
+    border: 0;
+    color: var(--color-gray);
+}
+
+.section-slider .show-all-btn span {
+    font-size: 16px;
+    font-family: Martel Sans;
+    font-style: normal;
+    font-weight: var(--weight-700);
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.slider-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px 92px 72px 92px;
+}
+
+.swiper-spec-item {
+
+    width: 136px;
+    height: 136px;
+    box-shadow: 0px 1px 16px 0px rgba(60, 62, 74, 0.08);
+    border-radius: 4px;
+
+}
+
+.swiper .res-spec {
+   min-width: 136px;
+   max-width: 136px;
+   height: 136px;
+}
+
+.swiper-nav-btn-nx {
+    position: relative;
+    top: -75px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.swiper-nav-btn-nx button {
+
+    background-color: #FFF;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.swiper-nav-btn-nx button:hover {
+    background-color: hsl(208, 100%, 97%);
+    cursor: pointer;
+}
+
+.res-spec:nth-child(1) {
+    background: center no-repeat url("../images/Bagel.svg");
+
+
+}
+
+.res-spec:nth-child(2) {
+    background: center no-repeat url("../images/burger.svg");
+}
+
+.res-spec:nth-child(3) {
+    background: center no-repeat url("../images/Chicken.svg");
+}
+
+.res-spec:nth-child(4) {
+    background: center no-repeat url("../images/Fish.svg");
+}
+
+.res-spec:nth-child(5) {
+    background: center no-repeat url("../images/FishChips.svg");
+}
+
+.res-spec:nth-child(6) {
+    background: center  no-repeat url("../images/Vegan.svg");
+}
+
+.res-spec:nth-child(7) {
+    background: center  no-repeat url("../images/Pizza.svg");
+}
+
+.res-spec:nth-child(8) {
+    background: center  no-repeat url("../images/Raviolli.svg");
+}
+
