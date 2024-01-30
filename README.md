@@ -6,3 +6,6 @@ food delivery application.
 interfaces, incorporating various sections such as sliders and
 maps
 
+![Main-page](https://github.com/Zdragun/foodDelivery/assets/55197871/59a79730-a9d2-4693-a79e-c4e91b940a44)
+
+
